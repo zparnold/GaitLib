@@ -3,15 +3,15 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.4'
+        classpath 'com.android.tools.build:gradle:1.1.0'
     }
 }
 apply plugin: 'android'
 
 dependencies {
-    compile project(':C::Users:Mike:Documents:UBC:SPIN:gaitlib-workspace:ubccsgit:GaitLib')
-    compile files('../../../../../../../../GaitLib/libs/commons-math3-3.0.jar')
-    compile files('../../../../../../../../GaitLib/libs/wekaSTRIPPED.jar')
+    compile project('C:\\Users\\Zach\\git\\GaitLib\\GaitLib')
+    compile files(':C:Users:Zach:git:GaitLib:GaitLib:libs:commons-math3-3.0.jar')
+    compile files(':C:Users:Zach:git:GaitLib:GaitLib:libs:wekaSTRIPPED.jar')
 }
 
 android {
